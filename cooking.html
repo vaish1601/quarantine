@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,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">
+    <script src="js.js"></script>
+    <title>Quarantine Fun</title>
+    
+</head>
+<body>
+
+
+<nav role="navigation">
+    <div id="menuToggle">
+      
+      <input type="checkbox" />
+      
+     
+      
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      
+      <ul id="menu">
+        <a href="index.html"><li>All</li></a>
+        <a href="cooking.html"><li>Cooking </li></a>
+        <a href="skill.html"><li>Skill development</li></a>
+        <a href="les.html"><li>Lesiure Activities</li></a>
+        <a href="health.html"><li>Health</li></a>
+        <a href="share.html"><li>Share your Idea</li></a>
+        
+        
+      </ul>
+    </div>
+  </nav>
+
+    <h1 class="main-title">What to Cook this Quarantine</h1>
+    <h2><i>
+        Perfect for anybody who enjoys eating and likes to experiment with new and creative flavors.
+    </i></h2>
+
+    <div class="container">
+      <h3 class="title">toast bread with blueberry</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1585492510469-c50d23802dae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">This is a very unique breakfast dish. Good for any holiday breakfast or brunch, it's filled with the fresh taste of blueberries, and covered with a rich blueberry sauce to make it a one of a kind.</h3>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h3 class="title">Grilled steak with vegetables</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-top">
+            <h3> A lemon marinade is a triple threat: It flavors vegetables before grilling, then makes the base for a tangy dressing to use tonight and for Zesty Pork Sandwiches. </h3>
+           
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h3 class="title">Pesto pasta</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-left">
+            <h3>Made with the right ingredients, pesto provides some valuable nutrients; however it's also high in fat, calories and sodium. Pesto sauce is high in calories, fat and sodium, but it also offers some health benefits when eaten in moderation</h3>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h3 class="title">Sushi</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-right">
+            <h3>Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits </h3>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h3 class="title">Momos</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-top fadeIn-left">
+            <h3>Momo is a type of South Asian steamed filled dumpling, popular across the Indian subcontinent and the Himalayan regions of broader South Asia.Get your hands working on either steamed or fried momos </h3>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h3 class="title">Classic Egg and Bread</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-top fadeIn-right">
+            <h3>Do you want to get creative with preparing your eggs? Bulls Eye on Toast is the best way to go about it. Break in your egg into the centre of a slice of bread and cook until you get your desired consistency of bulls eye egg. Serve along with a fruit bowl for a wholesome and healthy breakfast</h3>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h3 class="title">Berry and Walnuts</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1504708706948-13d6cbba4062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-bottom fadeIn-left">
+            <h3>You’d never guess this blueberry treat is made with nutritious ingredients like black beans and walnuts. Whip up a batch of this brownie batter as...</h3>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container">
+      <h3 class="title">Meat salad</h3>
+      <div class="content">
+        <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+          <div class="content-overlay"></div>
+          <img class="content-image" src="https://images.unsplash.com/photo-1563897539633-7374c276c212?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+          <div class="content-details fadeIn-bottom fadeIn-right">
+            <h3>Change your weeknight dinner routine and jazz up lunch with these protein-packed salads: Combine favorite ingredients in fresh ways for satisfying meals that hit the spot. </h3>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+    <footer>
+        <h4>By Vaishnavi Manambat Kaloor</h4>
+    </footer>
+</body>
+</html>
